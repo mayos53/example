@@ -67,7 +67,8 @@ class TopicsState extends State<Topics> {
         FeedState.canInteract =
             topics[index].settings.isActionAllowed(CommunitiesAction.react);
         FeedState.isComment = false;
-        Navigator.pushNamed(context, '/feed');
+        Navigator.pushNamed(context, '/old_feed');
+        // Navigator.pushNamed(context, '/feed');
       },
       hasArrow: true,
     ));

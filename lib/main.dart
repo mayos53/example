@@ -26,6 +26,7 @@ import 'feed.dart';
 import 'language_menu.dart';
 import 'notifications_list.dart';
 import 'notifications_menu.dart';
+import 'old_feed.dart';
 
 List<BuildContext> buildContextList = [];
 ReferralData globalReferralData;
@@ -218,6 +219,7 @@ class AppState extends State<MyApp> implements StateProvider {
         '/topics': (BuildContext context) => Topics(),
         '/activities': (BuildContext context) => ActivitiesMenu(this),
         '/feed': (BuildContext context) => Feed(),
+        '/old_feed': (BuildContext context) => OldFeed(),
         '/friends': (BuildContext context) => Friends(),
         '/users': (BuildContext context) => Users(),
         '/followers': (BuildContext context) => Followers(),
