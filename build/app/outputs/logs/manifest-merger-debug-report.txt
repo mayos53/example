@@ -1,0 +1,604 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/yossi/Documents/Projects/getsocial-flutter-sdk-master/example/android/app/src/main/AndroidManifest.xml:1:1-52:12
+INJECTED from /Users/yossi/Documents/Projects/getsocial-flutter-sdk-master/example/android/app/src/main/AndroidManifest.xml:1:1-52:12
+INJECTED from /Users/yossi/Documents/Projects/getsocial-flutter-sdk-master/example/android/app/src/main/AndroidManifest.xml:1:1-52:12
+INJECTED from /Users/yossi/Documents/Projects/getsocial-flutter-sdk-master/example/android/app/src/main/AndroidManifest.xml:1:1-52:12
+MERGED from /Users/yossi/Documents/Projects/getsocial-flutter-sdk-master/example/android/app/src/main/AndroidManifest.xml:1:1-52:12
+MERGED from [:file_picker] /Users/yossi/Documents/Projects/getsocial-flutter-sdk-master/example/build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:flutter_plugin_android_lifecycle] /Users/yossi/Documents/Projects/getsocial-flutter-sdk-master/example/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:getsocial_flutter_sdk] /Users/yossi/Documents/Projects/getsocial-flutter-sdk-master/example/build/getsocial_flutter_sdk/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/515b510255505d75755a439cfdb2bd6a/multidex-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-messaging:19.0.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/0c26093e03576fbd1774cfa2aa4551f9/jetified-firebase-messaging-19.0.1/AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.android.gms:play-services-ads:18.1.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/8f21ba9e84a5e26660497258a3ff4e99/jetified-play-services-ads-18.1.1/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.installreferrer:installreferrer:1.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/9739a8cbf036765a63bffe286de761d5/jetified-installreferrer-1.1/AndroidManifest.xml:2:1-9:12
+MERGED from [im.getsocial:getsocial-ui:7.9.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/af93f3a3643ce6fc37f86a5e0d5e8d6a/jetified-getsocial-ui-7.9.1/AndroidManifest.xml:2:1-11:12
+MERGED from [im.getsocial:getsocial-core:7.9.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/cd6cd6ca5ba497a8764f1486bb213a4b/jetified-getsocial-core-7.9.1/AndroidManifest.xml:2:1-85:12
+MERGED from [com.google.firebase:firebase-iid:19.0.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/cf20fadfac513523abaae2e2ef8ca8d7/jetified-firebase-iid-19.0.1/AndroidManifest.xml:17:1-47:12
+MERGED from [com.google.firebase:firebase-common:18.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/6bb09837ce03a82efd69b0e9d11fa254/jetified-firebase-common-18.0.0/AndroidManifest.xml:2:1-19:12
+MERGED from [androidx.browser:browser:1.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/64a319d6473b35a97466dc7708ec53dc/browser-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/2f7b6e76e85556931b536a1bebe290dd/jetified-firebase-iid-interop-17.0.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/f318b35285b2e5022155f96a0bb201df/jetified-play-services-base-17.0.0/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/108fc5928dadce76e8087f172843a220/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/f9e0dfa67b60515f7ae21deb7e69ba44/jetified-firebase-measurement-connector-18.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-ads-lite:18.1.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/b013f1ba1aa090f6423ff48b066fbd1a/jetified-play-services-ads-lite-18.1.1/AndroidManifest.xml:17:1-42:12
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/f9e3671f516d479539a8cf148b109cf4/jetified-play-services-measurement-17.0.0/AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/80d88ba4be8ab6b2fa479ae50042b5f8/jetified-play-services-measurement-sdk-17.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/4a91c5c91887c8954f3581b54037fbb0/jetified-play-services-measurement-impl-17.0.0/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/cfdb3f6e1a3851367e5b3f53ca74ebee/jetified-play-services-ads-identifier-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-gass:18.1.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/a6f09b7ce1c3e1f41f4df60159020de5/jetified-play-services-gass-18.1.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/25f70098bd60b35c77ce12d46242dd7f/jetified-play-services-stats-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/544e28ecece06ae700884d1483b1d868/jetified-play-services-measurement-sdk-api-17.0.0/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-measurement-base:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/f3ed967660e864ede6c1253f686f6fef/jetified-play-services-measurement-base-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/4b34329ebd092b1e2d84bd5a9be96a4e/jetified-play-services-basement-17.0.0/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/9171bd971a5c0df42620cf16b25cb582/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/0fecb273a51e2e8cd12b706cb3ca4f78/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/2912e03adad31b21239de8360197a84d/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/83863831789914999660bcf923dd62fb/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/dcaecf3b48380ef1f80efd641d237431/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/a5a75d4c2a65ca67ab59439666793731/jetified-activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/8c0670119263042b2cfa58155c0e3efa/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/de18abe60e9af9bfdf0e75770aa76453/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/5e82c80f798b752b020f28187a673ce1/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/9939983d7aa9603f3ed453b89a8a7ed0/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/6cd53fd81b3bafd1a2d5a099de6f166b/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/fb7a2d4d0ad9baf1402de9137549cd72/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.6.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/b12e0bcc0b3fb88f21e0f116655df0a6/core-1.6.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/4acb4372514b348f2439e9f1da6b27b9/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/4ba8586056abbc261fd48c582b88404e/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/cdda81dc4105c349ff3501e74db52f59/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/643aa7680a68ad94d053c08f962f3f7e/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/e4a765f87a602a2509b2606058e24bbf/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/6c85791bc0f98d2997cf2a50e28bbf0a/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/fc3ce11e7938ac43c3a0fa105d7e7865/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/f2bc0ca1f91b797fe33a216db73508e4/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/ea1c0c9f0221b302afaa753ddb0e56a8/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/7df64bdb0cff88095a44042f75b83ac7/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/c7cd747b9896dd7d19052ae58eab07a2/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/29b47457738cfc5f873d45304421c47c/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/6a92781f1d0511c7e131d76124c69ced/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-ads-base:18.1.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/b75afbf1cf304b9bd1342aa9c95e5e12/jetified-play-services-ads-base-18.1.1/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/402f3789b761f835b0529e922ec07aae/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/yossi/Documents/Projects/getsocial-flutter-sdk-master/example/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /Users/yossi/Documents/Projects/getsocial-flutter-sdk-master/example/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /Users/yossi/Documents/Projects/getsocial-flutter-sdk-master/example/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+	package
+		ADDED from /Users/yossi/Documents/Projects/getsocial-flutter-sdk-master/example/android/app/src/main/AndroidManifest.xml:2:5-40
+		INJECTED from /Users/yossi/Documents/Projects/getsocial-flutter-sdk-master/example/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/yossi/Documents/Projects/getsocial-flutter-sdk-master/example/android/app/src/debug/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/yossi/Documents/Projects/getsocial-flutter-sdk-master/example/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/yossi/Documents/Projects/getsocial-flutter-sdk-master/example/android/app/src/main/AndroidManifest.xml:1:1-52:12
+		INJECTED from /Users/yossi/Documents/Projects/getsocial-flutter-sdk-master/example/android/app/src/debug/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/yossi/Documents/Projects/getsocial-flutter-sdk-master/example/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/yossi/Documents/Projects/getsocial-flutter-sdk-master/example/android/app/src/main/AndroidManifest.xml:1:1-52:12
+		INJECTED from /Users/yossi/Documents/Projects/getsocial-flutter-sdk-master/example/android/app/src/debug/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/yossi/Documents/Projects/getsocial-flutter-sdk-master/example/android/app/src/main/AndroidManifest.xml:1:11-69
+application
+ADDED from /Users/yossi/Documents/Projects/getsocial-flutter-sdk-master/example/android/app/src/main/AndroidManifest.xml:8:5-51:19
+MERGED from [com.google.firebase:firebase-messaging:19.0.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/0c26093e03576fbd1774cfa2aa4551f9/jetified-firebase-messaging-19.0.1/AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-messaging:19.0.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/0c26093e03576fbd1774cfa2aa4551f9/jetified-firebase-messaging-19.0.1/AndroidManifest.xml:22:5-35:19
+MERGED from [com.android.installreferrer:installreferrer:1.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/9739a8cbf036765a63bffe286de761d5/jetified-installreferrer-1.1/AndroidManifest.xml:7:5-20
+MERGED from [com.android.installreferrer:installreferrer:1.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/9739a8cbf036765a63bffe286de761d5/jetified-installreferrer-1.1/AndroidManifest.xml:7:5-20
+MERGED from [im.getsocial:getsocial-core:7.9.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/cd6cd6ca5ba497a8764f1486bb213a4b/jetified-getsocial-core-7.9.1/AndroidManifest.xml:12:5-83:19
+MERGED from [im.getsocial:getsocial-core:7.9.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/cd6cd6ca5ba497a8764f1486bb213a4b/jetified-getsocial-core-7.9.1/AndroidManifest.xml:12:5-83:19
+MERGED from [com.google.firebase:firebase-iid:19.0.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/cf20fadfac513523abaae2e2ef8ca8d7/jetified-firebase-iid-19.0.1/AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-iid:19.0.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/cf20fadfac513523abaae2e2ef8ca8d7/jetified-firebase-iid-19.0.1/AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-common:18.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/6bb09837ce03a82efd69b0e9d11fa254/jetified-firebase-common-18.0.0/AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.firebase:firebase-common:18.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/6bb09837ce03a82efd69b0e9d11fa254/jetified-firebase-common-18.0.0/AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/2f7b6e76e85556931b536a1bebe290dd/jetified-firebase-iid-interop-17.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/2f7b6e76e85556931b536a1bebe290dd/jetified-firebase-iid-interop-17.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/f318b35285b2e5022155f96a0bb201df/jetified-play-services-base-17.0.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/f318b35285b2e5022155f96a0bb201df/jetified-play-services-base-17.0.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/108fc5928dadce76e8087f172843a220/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/108fc5928dadce76e8087f172843a220/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/f9e0dfa67b60515f7ae21deb7e69ba44/jetified-firebase-measurement-connector-18.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/f9e0dfa67b60515f7ae21deb7e69ba44/jetified-firebase-measurement-connector-18.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-ads-lite:18.1.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/b013f1ba1aa090f6423ff48b066fbd1a/jetified-play-services-ads-lite-18.1.1/AndroidManifest.xml:26:5-40:19
+MERGED from [com.google.android.gms:play-services-ads-lite:18.1.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/b013f1ba1aa090f6423ff48b066fbd1a/jetified-play-services-ads-lite-18.1.1/AndroidManifest.xml:26:5-40:19
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/f9e3671f516d479539a8cf148b109cf4/jetified-play-services-measurement-17.0.0/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/f9e3671f516d479539a8cf148b109cf4/jetified-play-services-measurement-17.0.0/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/80d88ba4be8ab6b2fa479ae50042b5f8/jetified-play-services-measurement-sdk-17.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/80d88ba4be8ab6b2fa479ae50042b5f8/jetified-play-services-measurement-sdk-17.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/4a91c5c91887c8954f3581b54037fbb0/jetified-play-services-measurement-impl-17.0.0/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/4a91c5c91887c8954f3581b54037fbb0/jetified-play-services-measurement-impl-17.0.0/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/cfdb3f6e1a3851367e5b3f53ca74ebee/jetified-play-services-ads-identifier-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/cfdb3f6e1a3851367e5b3f53ca74ebee/jetified-play-services-ads-identifier-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-gass:18.1.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/a6f09b7ce1c3e1f41f4df60159020de5/jetified-play-services-gass-18.1.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-gass:18.1.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/a6f09b7ce1c3e1f41f4df60159020de5/jetified-play-services-gass-18.1.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/25f70098bd60b35c77ce12d46242dd7f/jetified-play-services-stats-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/25f70098bd60b35c77ce12d46242dd7f/jetified-play-services-stats-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/544e28ecece06ae700884d1483b1d868/jetified-play-services-measurement-sdk-api-17.0.0/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/544e28ecece06ae700884d1483b1d868/jetified-play-services-measurement-sdk-api-17.0.0/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-base:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/f3ed967660e864ede6c1253f686f6fef/jetified-play-services-measurement-base-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/f3ed967660e864ede6c1253f686f6fef/jetified-play-services-measurement-base-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/4b34329ebd092b1e2d84bd5a9be96a4e/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/4b34329ebd092b1e2d84bd5a9be96a4e/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.6.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/b12e0bcc0b3fb88f21e0f116655df0a6/core-1.6.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.6.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/b12e0bcc0b3fb88f21e0f116655df0a6/core-1.6.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/f2bc0ca1f91b797fe33a216db73508e4/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/f2bc0ca1f91b797fe33a216db73508e4/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.android.gms:play-services-ads-base:18.1.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/b75afbf1cf304b9bd1342aa9c95e5e12/jetified-play-services-ads-base-18.1.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-base:18.1.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/b75afbf1cf304b9bd1342aa9c95e5e12/jetified-play-services-ads-base-18.1.1/AndroidManifest.xml:7:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.6.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/b12e0bcc0b3fb88f21e0f116655df0a6/core-1.6.0/AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from /Users/yossi/Documents/Projects/getsocial-flutter-sdk-master/example/android/app/src/main/AndroidManifest.xml:10:9-41
+	android:icon
+		ADDED from /Users/yossi/Documents/Projects/getsocial-flutter-sdk-master/example/android/app/src/main/AndroidManifest.xml:11:9-43
+	android:name
+		ADDED from /Users/yossi/Documents/Projects/getsocial-flutter-sdk-master/example/android/app/src/main/AndroidManifest.xml:9:9-57
+activity#im.getsocial.flutter.demo.MainActivity
+ADDED from /Users/yossi/Documents/Projects/getsocial-flutter-sdk-master/example/android/app/src/main/AndroidManifest.xml:12:9-41:20
+	android:label
+		ADDED from /Users/yossi/Documents/Projects/getsocial-flutter-sdk-master/example/android/app/src/main/AndroidManifest.xml:14:13-45
+	android:launchMode
+		ADDED from /Users/yossi/Documents/Projects/getsocial-flutter-sdk-master/example/android/app/src/main/AndroidManifest.xml:15:13-43
+	android:hardwareAccelerated
+		ADDED from /Users/yossi/Documents/Projects/getsocial-flutter-sdk-master/example/android/app/src/main/AndroidManifest.xml:18:13-47
+	android:windowSoftInputMode
+		ADDED from /Users/yossi/Documents/Projects/getsocial-flutter-sdk-master/example/android/app/src/main/AndroidManifest.xml:19:13-55
+	android:configChanges
+		ADDED from /Users/yossi/Documents/Projects/getsocial-flutter-sdk-master/example/android/app/src/main/AndroidManifest.xml:17:13-163
+	android:theme
+		ADDED from /Users/yossi/Documents/Projects/getsocial-flutter-sdk-master/example/android/app/src/main/AndroidManifest.xml:16:13-47
+	android:name
+		ADDED from /Users/yossi/Documents/Projects/getsocial-flutter-sdk-master/example/android/app/src/main/AndroidManifest.xml:13:13-66
+meta-data#io.flutter.embedding.android.NormalTheme
+ADDED from /Users/yossi/Documents/Projects/getsocial-flutter-sdk-master/example/android/app/src/main/AndroidManifest.xml:24:13-27:17
+	android:resource
+		ADDED from /Users/yossi/Documents/Projects/getsocial-flutter-sdk-master/example/android/app/src/main/AndroidManifest.xml:26:15-52
+	android:name
+		ADDED from /Users/yossi/Documents/Projects/getsocial-flutter-sdk-master/example/android/app/src/main/AndroidManifest.xml:25:15-70
+meta-data#io.flutter.embedding.android.SplashScreenDrawable
+ADDED from /Users/yossi/Documents/Projects/getsocial-flutter-sdk-master/example/android/app/src/main/AndroidManifest.xml:33:13-36:17
+	android:resource
+		ADDED from /Users/yossi/Documents/Projects/getsocial-flutter-sdk-master/example/android/app/src/main/AndroidManifest.xml:35:15-61
+	android:name
+		ADDED from /Users/yossi/Documents/Projects/getsocial-flutter-sdk-master/example/android/app/src/main/AndroidManifest.xml:34:15-79
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/yossi/Documents/Projects/getsocial-flutter-sdk-master/example/android/app/src/main/AndroidManifest.xml:37:13-40:29
+action#android.intent.action.MAIN
+ADDED from /Users/yossi/Documents/Projects/getsocial-flutter-sdk-master/example/android/app/src/main/AndroidManifest.xml:38:17-68
+	android:name
+		ADDED from /Users/yossi/Documents/Projects/getsocial-flutter-sdk-master/example/android/app/src/main/AndroidManifest.xml:38:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/yossi/Documents/Projects/getsocial-flutter-sdk-master/example/android/app/src/main/AndroidManifest.xml:39:17-76
+	android:name
+		ADDED from /Users/yossi/Documents/Projects/getsocial-flutter-sdk-master/example/android/app/src/main/AndroidManifest.xml:39:27-74
+meta-data#flutterEmbedding
+ADDED from /Users/yossi/Documents/Projects/getsocial-flutter-sdk-master/example/android/app/src/main/AndroidManifest.xml:44:9-46:33
+	android:value
+		ADDED from /Users/yossi/Documents/Projects/getsocial-flutter-sdk-master/example/android/app/src/main/AndroidManifest.xml:46:13-30
+	android:name
+		ADDED from /Users/yossi/Documents/Projects/getsocial-flutter-sdk-master/example/android/app/src/main/AndroidManifest.xml:45:13-44
+meta-data#com.google.android.gms.ads.AD_MANAGER_APP
+ADDED from /Users/yossi/Documents/Projects/getsocial-flutter-sdk-master/example/android/app/src/main/AndroidManifest.xml:47:9-49:35
+	android:value
+		ADDED from /Users/yossi/Documents/Projects/getsocial-flutter-sdk-master/example/android/app/src/main/AndroidManifest.xml:49:13-33
+	android:name
+		ADDED from /Users/yossi/Documents/Projects/getsocial-flutter-sdk-master/example/android/app/src/main/AndroidManifest.xml:48:13-69
+uses-sdk
+INJECTED from /Users/yossi/Documents/Projects/getsocial-flutter-sdk-master/example/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/yossi/Documents/Projects/getsocial-flutter-sdk-master/example/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/yossi/Documents/Projects/getsocial-flutter-sdk-master/example/android/app/src/main/AndroidManifest.xml
+MERGED from [:file_picker] /Users/yossi/Documents/Projects/getsocial-flutter-sdk-master/example/build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:file_picker] /Users/yossi/Documents/Projects/getsocial-flutter-sdk-master/example/build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_plugin_android_lifecycle] /Users/yossi/Documents/Projects/getsocial-flutter-sdk-master/example/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_plugin_android_lifecycle] /Users/yossi/Documents/Projects/getsocial-flutter-sdk-master/example/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:getsocial_flutter_sdk] /Users/yossi/Documents/Projects/getsocial-flutter-sdk-master/example/build/getsocial_flutter_sdk/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:getsocial_flutter_sdk] /Users/yossi/Documents/Projects/getsocial-flutter-sdk-master/example/build/getsocial_flutter_sdk/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/515b510255505d75755a439cfdb2bd6a/multidex-2.0.0/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/515b510255505d75755a439cfdb2bd6a/multidex-2.0.0/AndroidManifest.xml:20:5-43
+MERGED from [com.google.firebase:firebase-messaging:19.0.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/0c26093e03576fbd1774cfa2aa4551f9/jetified-firebase-messaging-19.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:19.0.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/0c26093e03576fbd1774cfa2aa4551f9/jetified-firebase-messaging-19.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads:18.1.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/8f21ba9e84a5e26660497258a3ff4e99/jetified-play-services-ads-18.1.1/AndroidManifest.xml:21:5-23:52
+MERGED from [com.google.android.gms:play-services-ads:18.1.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/8f21ba9e84a5e26660497258a3ff4e99/jetified-play-services-ads-18.1.1/AndroidManifest.xml:21:5-23:52
+MERGED from [im.getsocial:getsocial-ui:7.9.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/af93f3a3643ce6fc37f86a5e0d5e8d6a/jetified-getsocial-ui-7.9.1/AndroidManifest.xml:7:5-9:41
+MERGED from [im.getsocial:getsocial-ui:7.9.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/af93f3a3643ce6fc37f86a5e0d5e8d6a/jetified-getsocial-ui-7.9.1/AndroidManifest.xml:7:5-9:41
+MERGED from [im.getsocial:getsocial-core:7.9.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/cd6cd6ca5ba497a8764f1486bb213a4b/jetified-getsocial-core-7.9.1/AndroidManifest.xml:5:5-7:41
+MERGED from [im.getsocial:getsocial-core:7.9.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/cd6cd6ca5ba497a8764f1486bb213a4b/jetified-getsocial-core-7.9.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-iid:19.0.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/cf20fadfac513523abaae2e2ef8ca8d7/jetified-firebase-iid-19.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:19.0.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/cf20fadfac513523abaae2e2ef8ca8d7/jetified-firebase-iid-19.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:18.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/6bb09837ce03a82efd69b0e9d11fa254/jetified-firebase-common-18.0.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:18.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/6bb09837ce03a82efd69b0e9d11fa254/jetified-firebase-common-18.0.0/AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.browser:browser:1.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/64a319d6473b35a97466dc7708ec53dc/browser-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/64a319d6473b35a97466dc7708ec53dc/browser-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/2f7b6e76e85556931b536a1bebe290dd/jetified-firebase-iid-interop-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/2f7b6e76e85556931b536a1bebe290dd/jetified-firebase-iid-interop-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/f318b35285b2e5022155f96a0bb201df/jetified-play-services-base-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/f318b35285b2e5022155f96a0bb201df/jetified-play-services-base-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/108fc5928dadce76e8087f172843a220/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/108fc5928dadce76e8087f172843a220/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/f9e0dfa67b60515f7ae21deb7e69ba44/jetified-firebase-measurement-connector-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/f9e0dfa67b60515f7ae21deb7e69ba44/jetified-firebase-measurement-connector-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-lite:18.1.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/b013f1ba1aa090f6423ff48b066fbd1a/jetified-play-services-ads-lite-18.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-lite:18.1.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/b013f1ba1aa090f6423ff48b066fbd1a/jetified-play-services-ads-lite-18.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/f9e3671f516d479539a8cf148b109cf4/jetified-play-services-measurement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/f9e3671f516d479539a8cf148b109cf4/jetified-play-services-measurement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/80d88ba4be8ab6b2fa479ae50042b5f8/jetified-play-services-measurement-sdk-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/80d88ba4be8ab6b2fa479ae50042b5f8/jetified-play-services-measurement-sdk-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/4a91c5c91887c8954f3581b54037fbb0/jetified-play-services-measurement-impl-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/4a91c5c91887c8954f3581b54037fbb0/jetified-play-services-measurement-impl-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/cfdb3f6e1a3851367e5b3f53ca74ebee/jetified-play-services-ads-identifier-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/cfdb3f6e1a3851367e5b3f53ca74ebee/jetified-play-services-ads-identifier-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-gass:18.1.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/a6f09b7ce1c3e1f41f4df60159020de5/jetified-play-services-gass-18.1.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-gass:18.1.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/a6f09b7ce1c3e1f41f4df60159020de5/jetified-play-services-gass-18.1.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/25f70098bd60b35c77ce12d46242dd7f/jetified-play-services-stats-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/25f70098bd60b35c77ce12d46242dd7f/jetified-play-services-stats-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/544e28ecece06ae700884d1483b1d868/jetified-play-services-measurement-sdk-api-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/544e28ecece06ae700884d1483b1d868/jetified-play-services-measurement-sdk-api-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/f3ed967660e864ede6c1253f686f6fef/jetified-play-services-measurement-base-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/f3ed967660e864ede6c1253f686f6fef/jetified-play-services-measurement-base-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/4b34329ebd092b1e2d84bd5a9be96a4e/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/4b34329ebd092b1e2d84bd5a9be96a4e/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/9171bd971a5c0df42620cf16b25cb582/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/9171bd971a5c0df42620cf16b25cb582/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/0fecb273a51e2e8cd12b706cb3ca4f78/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/0fecb273a51e2e8cd12b706cb3ca4f78/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/2912e03adad31b21239de8360197a84d/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/2912e03adad31b21239de8360197a84d/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/83863831789914999660bcf923dd62fb/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/83863831789914999660bcf923dd62fb/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/dcaecf3b48380ef1f80efd641d237431/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/dcaecf3b48380ef1f80efd641d237431/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/a5a75d4c2a65ca67ab59439666793731/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/a5a75d4c2a65ca67ab59439666793731/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/8c0670119263042b2cfa58155c0e3efa/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/8c0670119263042b2cfa58155c0e3efa/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/de18abe60e9af9bfdf0e75770aa76453/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/de18abe60e9af9bfdf0e75770aa76453/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/5e82c80f798b752b020f28187a673ce1/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/5e82c80f798b752b020f28187a673ce1/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/9939983d7aa9603f3ed453b89a8a7ed0/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/9939983d7aa9603f3ed453b89a8a7ed0/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/6cd53fd81b3bafd1a2d5a099de6f166b/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/6cd53fd81b3bafd1a2d5a099de6f166b/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/fb7a2d4d0ad9baf1402de9137549cd72/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/fb7a2d4d0ad9baf1402de9137549cd72/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.6.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/b12e0bcc0b3fb88f21e0f116655df0a6/core-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.6.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/b12e0bcc0b3fb88f21e0f116655df0a6/core-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/4acb4372514b348f2439e9f1da6b27b9/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/4acb4372514b348f2439e9f1da6b27b9/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/4ba8586056abbc261fd48c582b88404e/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/4ba8586056abbc261fd48c582b88404e/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/cdda81dc4105c349ff3501e74db52f59/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/cdda81dc4105c349ff3501e74db52f59/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/643aa7680a68ad94d053c08f962f3f7e/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/643aa7680a68ad94d053c08f962f3f7e/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/e4a765f87a602a2509b2606058e24bbf/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/e4a765f87a602a2509b2606058e24bbf/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/6c85791bc0f98d2997cf2a50e28bbf0a/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/6c85791bc0f98d2997cf2a50e28bbf0a/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/fc3ce11e7938ac43c3a0fa105d7e7865/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/fc3ce11e7938ac43c3a0fa105d7e7865/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/f2bc0ca1f91b797fe33a216db73508e4/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/f2bc0ca1f91b797fe33a216db73508e4/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/ea1c0c9f0221b302afaa753ddb0e56a8/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/ea1c0c9f0221b302afaa753ddb0e56a8/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/7df64bdb0cff88095a44042f75b83ac7/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/7df64bdb0cff88095a44042f75b83ac7/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/c7cd747b9896dd7d19052ae58eab07a2/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/c7cd747b9896dd7d19052ae58eab07a2/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/29b47457738cfc5f873d45304421c47c/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/29b47457738cfc5f873d45304421c47c/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/6a92781f1d0511c7e131d76124c69ced/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/6a92781f1d0511c7e131d76124c69ced/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-base:18.1.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/b75afbf1cf304b9bd1342aa9c95e5e12/jetified-play-services-ads-base-18.1.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-base:18.1.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/b75afbf1cf304b9bd1342aa9c95e5e12/jetified-play-services-ads-base-18.1.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/402f3789b761f835b0529e922ec07aae/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/402f3789b761f835b0529e922ec07aae/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/yossi/Documents/Projects/getsocial-flutter-sdk-master/example/android/app/src/debug/AndroidManifest.xml
+INJECTED from /Users/yossi/Documents/Projects/getsocial-flutter-sdk-master/example/android/app/src/debug/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.google.android.gms:play-services-ads:18.1.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/8f21ba9e84a5e26660497258a3ff4e99/jetified-play-services-ads-18.1.1/AndroidManifest.xml:23:9-49
+	android:targetSdkVersion
+		INJECTED from /Users/yossi/Documents/Projects/getsocial-flutter-sdk-master/example/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/yossi/Documents/Projects/getsocial-flutter-sdk-master/example/android/app/src/debug/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/yossi/Documents/Projects/getsocial-flutter-sdk-master/example/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/yossi/Documents/Projects/getsocial-flutter-sdk-master/example/android/app/src/debug/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /Users/yossi/Documents/Projects/getsocial-flutter-sdk-master/example/android/app/src/debug/AndroidManifest.xml:6:5-66
+MERGED from [im.getsocial:getsocial-core:7.9.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/cd6cd6ca5ba497a8764f1486bb213a4b/jetified-getsocial-core-7.9.1/AndroidManifest.xml:9:5-67
+MERGED from [im.getsocial:getsocial-core:7.9.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/cd6cd6ca5ba497a8764f1486bb213a4b/jetified-getsocial-core-7.9.1/AndroidManifest.xml:9:5-67
+MERGED from [com.google.firebase:firebase-iid:19.0.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/cf20fadfac513523abaae2e2ef8ca8d7/jetified-firebase-iid-19.0.1/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:19.0.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/cf20fadfac513523abaae2e2ef8ca8d7/jetified-firebase-iid-19.0.1/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:18.1.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/b013f1ba1aa090f6423ff48b066fbd1a/jetified-play-services-ads-lite-18.1.1/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:18.1.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/b013f1ba1aa090f6423ff48b066fbd1a/jetified-play-services-ads-lite-18.1.1/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/f9e3671f516d479539a8cf148b109cf4/jetified-play-services-measurement-17.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/f9e3671f516d479539a8cf148b109cf4/jetified-play-services-measurement-17.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/4a91c5c91887c8954f3581b54037fbb0/jetified-play-services-measurement-impl-17.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/4a91c5c91887c8954f3581b54037fbb0/jetified-play-services-measurement-impl-17.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/544e28ecece06ae700884d1483b1d868/jetified-play-services-measurement-sdk-api-17.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/544e28ecece06ae700884d1483b1d868/jetified-play-services-measurement-sdk-api-17.0.0/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from /Users/yossi/Documents/Projects/getsocial-flutter-sdk-master/example/android/app/src/debug/AndroidManifest.xml:6:22-64
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from [:file_picker] /Users/yossi/Documents/Projects/getsocial-flutter-sdk-master/example/build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-80
+	android:name
+		ADDED from [:file_picker] /Users/yossi/Documents/Projects/getsocial-flutter-sdk-master/example/build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-77
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:19.0.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/0c26093e03576fbd1774cfa2aa4551f9/jetified-firebase-messaging-19.0.1/AndroidManifest.xml:28:9-34:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:19.0.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/0c26093e03576fbd1774cfa2aa4551f9/jetified-firebase-messaging-19.0.1/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:19.0.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/0c26093e03576fbd1774cfa2aa4551f9/jetified-firebase-messaging-19.0.1/AndroidManifest.xml:29:13-82
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:19.0.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/0c26093e03576fbd1774cfa2aa4551f9/jetified-firebase-messaging-19.0.1/AndroidManifest.xml:31:13-33:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-messaging:19.0.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/0c26093e03576fbd1774cfa2aa4551f9/jetified-firebase-messaging-19.0.1/AndroidManifest.xml:31:28-51
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:19.0.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/0c26093e03576fbd1774cfa2aa4551f9/jetified-firebase-messaging-19.0.1/AndroidManifest.xml:32:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:19.0.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/0c26093e03576fbd1774cfa2aa4551f9/jetified-firebase-messaging-19.0.1/AndroidManifest.xml:32:25-75
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.android.installreferrer:installreferrer:1.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/9739a8cbf036765a63bffe286de761d5/jetified-installreferrer-1.1/AndroidManifest.xml:5:5-110
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/f9e3671f516d479539a8cf148b109cf4/jetified-play-services-measurement-17.0.0/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/f9e3671f516d479539a8cf148b109cf4/jetified-play-services-measurement-17.0.0/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/4a91c5c91887c8954f3581b54037fbb0/jetified-play-services-measurement-impl-17.0.0/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/4a91c5c91887c8954f3581b54037fbb0/jetified-play-services-measurement-impl-17.0.0/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/544e28ecece06ae700884d1483b1d868/jetified-play-services-measurement-sdk-api-17.0.0/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/544e28ecece06ae700884d1483b1d868/jetified-play-services-measurement-sdk-api-17.0.0/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.android.installreferrer:installreferrer:1.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/9739a8cbf036765a63bffe286de761d5/jetified-installreferrer-1.1/AndroidManifest.xml:5:22-107
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+IMPLIED from /Users/yossi/Documents/Projects/getsocial-flutter-sdk-master/example/android/app/src/debug/AndroidManifest.xml:1:1-7:12 reason: com.android.installreferrer has a targetSdkVersion < 4
+uses-permission#android.permission.READ_PHONE_STATE
+IMPLIED from /Users/yossi/Documents/Projects/getsocial-flutter-sdk-master/example/android/app/src/debug/AndroidManifest.xml:1:1-7:12 reason: com.android.installreferrer has a targetSdkVersion < 4
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [im.getsocial:getsocial-core:7.9.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/cd6cd6ca5ba497a8764f1486bb213a4b/jetified-getsocial-core-7.9.1/AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-iid:19.0.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/cf20fadfac513523abaae2e2ef8ca8d7/jetified-firebase-iid-19.0.1/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:19.0.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/cf20fadfac513523abaae2e2ef8ca8d7/jetified-firebase-iid-19.0.1/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:18.1.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/b013f1ba1aa090f6423ff48b066fbd1a/jetified-play-services-ads-lite-18.1.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:18.1.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/b013f1ba1aa090f6423ff48b066fbd1a/jetified-play-services-ads-lite-18.1.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/f9e3671f516d479539a8cf148b109cf4/jetified-play-services-measurement-17.0.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/f9e3671f516d479539a8cf148b109cf4/jetified-play-services-measurement-17.0.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/4a91c5c91887c8954f3581b54037fbb0/jetified-play-services-measurement-impl-17.0.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/4a91c5c91887c8954f3581b54037fbb0/jetified-play-services-measurement-impl-17.0.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/544e28ecece06ae700884d1483b1d868/jetified-play-services-measurement-sdk-api-17.0.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/544e28ecece06ae700884d1483b1d868/jetified-play-services-measurement-sdk-api-17.0.0/AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from [im.getsocial:getsocial-core:7.9.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/cd6cd6ca5ba497a8764f1486bb213a4b/jetified-getsocial-core-7.9.1/AndroidManifest.xml:10:22-76
+activity#im.getsocial.sdk.internal.unity.GetSocialDeepLinkingActivity
+ADDED from [im.getsocial:getsocial-core:7.9.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/cd6cd6ca5ba497a8764f1486bb213a4b/jetified-getsocial-core-7.9.1/AndroidManifest.xml:13:9-39:20
+	android:exported
+		ADDED from [im.getsocial:getsocial-core:7.9.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/cd6cd6ca5ba497a8764f1486bb213a4b/jetified-getsocial-core-7.9.1/AndroidManifest.xml:15:13-36
+	android:name
+		ADDED from [im.getsocial:getsocial-core:7.9.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/cd6cd6ca5ba497a8764f1486bb213a4b/jetified-getsocial-core-7.9.1/AndroidManifest.xml:14:13-88
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:${getsocial_hostName_0}+data:host:${getsocial_hostName_1}+data:scheme:https+data:scheme:https
+ADDED from [im.getsocial:getsocial-core:7.9.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/cd6cd6ca5ba497a8764f1486bb213a4b/jetified-getsocial-core-7.9.1/AndroidManifest.xml:16:13-28:29
+	android:autoVerify
+		ADDED from [im.getsocial:getsocial-core:7.9.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/cd6cd6ca5ba497a8764f1486bb213a4b/jetified-getsocial-core-7.9.1/AndroidManifest.xml:16:28-53
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:wateriopoc-gsalt.gsc.im+data:host:wateriopoc.gsc.im+data:scheme:https+data:scheme:https
+ADDED from [im.getsocial:getsocial-core:7.9.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/cd6cd6ca5ba497a8764f1486bb213a4b/jetified-getsocial-core-7.9.1/AndroidManifest.xml:16:13-28:29
+	android:autoVerify
+		ADDED from [im.getsocial:getsocial-core:7.9.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/cd6cd6ca5ba497a8764f1486bb213a4b/jetified-getsocial-core-7.9.1/AndroidManifest.xml:16:28-53
+action#android.intent.action.VIEW
+ADDED from [im.getsocial:getsocial-core:7.9.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/cd6cd6ca5ba497a8764f1486bb213a4b/jetified-getsocial-core-7.9.1/AndroidManifest.xml:17:17-69
+	android:name
+		ADDED from [im.getsocial:getsocial-core:7.9.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/cd6cd6ca5ba497a8764f1486bb213a4b/jetified-getsocial-core-7.9.1/AndroidManifest.xml:17:25-66
+category#android.intent.category.DEFAULT
+ADDED from [im.getsocial:getsocial-core:7.9.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/cd6cd6ca5ba497a8764f1486bb213a4b/jetified-getsocial-core-7.9.1/AndroidManifest.xml:19:17-76
+	android:name
+		ADDED from [im.getsocial:getsocial-core:7.9.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/cd6cd6ca5ba497a8764f1486bb213a4b/jetified-getsocial-core-7.9.1/AndroidManifest.xml:19:27-73
+category#android.intent.category.BROWSABLE
+ADDED from [im.getsocial:getsocial-core:7.9.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/cd6cd6ca5ba497a8764f1486bb213a4b/jetified-getsocial-core-7.9.1/AndroidManifest.xml:20:17-78
+	android:name
+		ADDED from [im.getsocial:getsocial-core:7.9.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/cd6cd6ca5ba497a8764f1486bb213a4b/jetified-getsocial-core-7.9.1/AndroidManifest.xml:20:27-75
+data
+ADDED from [im.getsocial:getsocial-core:7.9.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/cd6cd6ca5ba497a8764f1486bb213a4b/jetified-getsocial-core-7.9.1/AndroidManifest.xml:22:17-24:46
+	android:host
+		ADDED from [im.getsocial:getsocial-core:7.9.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/cd6cd6ca5ba497a8764f1486bb213a4b/jetified-getsocial-core-7.9.1/AndroidManifest.xml:23:21-59
+	android:scheme
+		ADDED from [im.getsocial:getsocial-core:7.9.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/cd6cd6ca5ba497a8764f1486bb213a4b/jetified-getsocial-core-7.9.1/AndroidManifest.xml:24:21-43
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:${getsocial_scheme}+data:scheme:getsocial
+ADDED from [im.getsocial:getsocial-core:7.9.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/cd6cd6ca5ba497a8764f1486bb213a4b/jetified-getsocial-core-7.9.1/AndroidManifest.xml:29:13-38:29
+	android:autoVerify
+		ADDED from [im.getsocial:getsocial-core:7.9.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/cd6cd6ca5ba497a8764f1486bb213a4b/jetified-getsocial-core-7.9.1/AndroidManifest.xml:29:28-54
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:7LW77m6e980806+data:scheme:getsocial
+ADDED from [im.getsocial:getsocial-core:7.9.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/cd6cd6ca5ba497a8764f1486bb213a4b/jetified-getsocial-core-7.9.1/AndroidManifest.xml:29:13-38:29
+	android:autoVerify
+		ADDED from [im.getsocial:getsocial-core:7.9.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/cd6cd6ca5ba497a8764f1486bb213a4b/jetified-getsocial-core-7.9.1/AndroidManifest.xml:29:28-54
+activity#im.getsocial.sdk.notifications.internal.strategy.NotificationClickActivity
+ADDED from [im.getsocial:getsocial-core:7.9.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/cd6cd6ca5ba497a8764f1486bb213a4b/jetified-getsocial-core-7.9.1/AndroidManifest.xml:40:9-47:20
+	android:excludeFromRecents
+		ADDED from [im.getsocial:getsocial-core:7.9.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/cd6cd6ca5ba497a8764f1486bb213a4b/jetified-getsocial-core-7.9.1/AndroidManifest.xml:42:13-46
+	android:noHistory
+		ADDED from [im.getsocial:getsocial-core:7.9.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/cd6cd6ca5ba497a8764f1486bb213a4b/jetified-getsocial-core-7.9.1/AndroidManifest.xml:44:13-37
+	android:exported
+		ADDED from [im.getsocial:getsocial-core:7.9.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/cd6cd6ca5ba497a8764f1486bb213a4b/jetified-getsocial-core-7.9.1/AndroidManifest.xml:43:13-36
+	android:theme
+		ADDED from [im.getsocial:getsocial-core:7.9.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/cd6cd6ca5ba497a8764f1486bb213a4b/jetified-getsocial-core-7.9.1/AndroidManifest.xml:46:13-72
+	android:taskAffinity
+		ADDED from [im.getsocial:getsocial-core:7.9.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/cd6cd6ca5ba497a8764f1486bb213a4b/jetified-getsocial-core-7.9.1/AndroidManifest.xml:45:13-36
+	android:name
+		ADDED from [im.getsocial:getsocial-core:7.9.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/cd6cd6ca5ba497a8764f1486bb213a4b/jetified-getsocial-core-7.9.1/AndroidManifest.xml:41:13-102
+provider#im.getsocial.sdk.AutoInitSdkContentProvider
+ADDED from [im.getsocial:getsocial-core:7.9.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/cd6cd6ca5ba497a8764f1486bb213a4b/jetified-getsocial-core-7.9.1/AndroidManifest.xml:49:9-53:40
+	android:enabled
+		ADDED from [im.getsocial:getsocial-core:7.9.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/cd6cd6ca5ba497a8764f1486bb213a4b/jetified-getsocial-core-7.9.1/AndroidManifest.xml:52:13-35
+	android:authorities
+		ADDED from [im.getsocial:getsocial-core:7.9.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/cd6cd6ca5ba497a8764f1486bb213a4b/jetified-getsocial-core-7.9.1/AndroidManifest.xml:51:13-75
+	android:exported
+		ADDED from [im.getsocial:getsocial-core:7.9.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/cd6cd6ca5ba497a8764f1486bb213a4b/jetified-getsocial-core-7.9.1/AndroidManifest.xml:53:13-37
+	android:name
+		ADDED from [im.getsocial:getsocial-core:7.9.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/cd6cd6ca5ba497a8764f1486bb213a4b/jetified-getsocial-core-7.9.1/AndroidManifest.xml:50:13-71
+provider#im.getsocial.sdk.invites.ImageContentProvider
+ADDED from [im.getsocial:getsocial-core:7.9.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/cd6cd6ca5ba497a8764f1486bb213a4b/jetified-getsocial-core-7.9.1/AndroidManifest.xml:54:9-58:50
+	android:grantUriPermissions
+		ADDED from [im.getsocial:getsocial-core:7.9.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/cd6cd6ca5ba497a8764f1486bb213a4b/jetified-getsocial-core-7.9.1/AndroidManifest.xml:58:13-47
+	android:authorities
+		ADDED from [im.getsocial:getsocial-core:7.9.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/cd6cd6ca5ba497a8764f1486bb213a4b/jetified-getsocial-core-7.9.1/AndroidManifest.xml:56:13-79
+	android:exported
+		ADDED from [im.getsocial:getsocial-core:7.9.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/cd6cd6ca5ba497a8764f1486bb213a4b/jetified-getsocial-core-7.9.1/AndroidManifest.xml:57:13-37
+	android:name
+		ADDED from [im.getsocial:getsocial-core:7.9.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/cd6cd6ca5ba497a8764f1486bb213a4b/jetified-getsocial-core-7.9.1/AndroidManifest.xml:55:13-73
+receiver#im.getsocial.sdk.PushNotificationsReceiver
+ADDED from [im.getsocial:getsocial-core:7.9.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/cd6cd6ca5ba497a8764f1486bb213a4b/jetified-getsocial-core-7.9.1/AndroidManifest.xml:60:9-75:20
+	android:exported
+		ADDED from [im.getsocial:getsocial-core:7.9.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/cd6cd6ca5ba497a8764f1486bb213a4b/jetified-getsocial-core-7.9.1/AndroidManifest.xml:62:13-36
+	android:permission
+		ADDED from [im.getsocial:getsocial-core:7.9.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/cd6cd6ca5ba497a8764f1486bb213a4b/jetified-getsocial-core-7.9.1/AndroidManifest.xml:63:13-73
+	android:name
+		ADDED from [im.getsocial:getsocial-core:7.9.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/cd6cd6ca5ba497a8764f1486bb213a4b/jetified-getsocial-core-7.9.1/AndroidManifest.xml:61:13-70
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+action:name:com.google.android.c2dm.intent.REGISTRATION+category:name:.gcm
+ADDED from [im.getsocial:getsocial-core:7.9.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/cd6cd6ca5ba497a8764f1486bb213a4b/jetified-getsocial-core-7.9.1/AndroidManifest.xml:64:13-69:29
+action#com.google.android.c2dm.intent.REGISTRATION
+ADDED from [im.getsocial:getsocial-core:7.9.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/cd6cd6ca5ba497a8764f1486bb213a4b/jetified-getsocial-core-7.9.1/AndroidManifest.xml:65:17-86
+	android:name
+		ADDED from [im.getsocial:getsocial-core:7.9.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/cd6cd6ca5ba497a8764f1486bb213a4b/jetified-getsocial-core-7.9.1/AndroidManifest.xml:65:25-83
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [im.getsocial:getsocial-core:7.9.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/cd6cd6ca5ba497a8764f1486bb213a4b/jetified-getsocial-core-7.9.1/AndroidManifest.xml:66:17-81
+	android:name
+		ADDED from [im.getsocial:getsocial-core:7.9.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/cd6cd6ca5ba497a8764f1486bb213a4b/jetified-getsocial-core-7.9.1/AndroidManifest.xml:66:25-78
+category#im.getsocial.sdk.gcm
+ADDED from [im.getsocial:getsocial-core:7.9.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/cd6cd6ca5ba497a8764f1486bb213a4b/jetified-getsocial-core-7.9.1/AndroidManifest.xml:68:17-49
+	android:name
+		ADDED from [im.getsocial:getsocial-core:7.9.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/cd6cd6ca5ba497a8764f1486bb213a4b/jetified-getsocial-core-7.9.1/AndroidManifest.xml:68:27-46
+intent-filter#action:name:im.getsocial.sdk.intent.RECEIVE+data:scheme:getSocialNotificationId
+ADDED from [im.getsocial:getsocial-core:7.9.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/cd6cd6ca5ba497a8764f1486bb213a4b/jetified-getsocial-core-7.9.1/AndroidManifest.xml:70:13-74:29
+action#im.getsocial.sdk.intent.RECEIVE
+ADDED from [im.getsocial:getsocial-core:7.9.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/cd6cd6ca5ba497a8764f1486bb213a4b/jetified-getsocial-core-7.9.1/AndroidManifest.xml:71:17-74
+	android:name
+		ADDED from [im.getsocial:getsocial-core:7.9.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/cd6cd6ca5ba497a8764f1486bb213a4b/jetified-getsocial-core-7.9.1/AndroidManifest.xml:71:25-71
+receiver#im.getsocial.sdk.LocaleChangeReceiver
+ADDED from [im.getsocial:getsocial-core:7.9.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/cd6cd6ca5ba497a8764f1486bb213a4b/jetified-getsocial-core-7.9.1/AndroidManifest.xml:76:9-82:20
+	android:exported
+		ADDED from [im.getsocial:getsocial-core:7.9.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/cd6cd6ca5ba497a8764f1486bb213a4b/jetified-getsocial-core-7.9.1/AndroidManifest.xml:78:13-36
+	android:name
+		ADDED from [im.getsocial:getsocial-core:7.9.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/cd6cd6ca5ba497a8764f1486bb213a4b/jetified-getsocial-core-7.9.1/AndroidManifest.xml:77:13-65
+intent-filter#action:name:android.intent.action.LOCALE_CHANGED
+ADDED from [im.getsocial:getsocial-core:7.9.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/cd6cd6ca5ba497a8764f1486bb213a4b/jetified-getsocial-core-7.9.1/AndroidManifest.xml:79:13-81:29
+action#android.intent.action.LOCALE_CHANGED
+ADDED from [im.getsocial:getsocial-core:7.9.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/cd6cd6ca5ba497a8764f1486bb213a4b/jetified-getsocial-core-7.9.1/AndroidManifest.xml:80:17-79
+	android:name
+		ADDED from [im.getsocial:getsocial-core:7.9.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/cd6cd6ca5ba497a8764f1486bb213a4b/jetified-getsocial-core-7.9.1/AndroidManifest.xml:80:25-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-iid:19.0.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/cf20fadfac513523abaae2e2ef8ca8d7/jetified-firebase-iid-19.0.1/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/f9e3671f516d479539a8cf148b109cf4/jetified-play-services-measurement-17.0.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/f9e3671f516d479539a8cf148b109cf4/jetified-play-services-measurement-17.0.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/4a91c5c91887c8954f3581b54037fbb0/jetified-play-services-measurement-impl-17.0.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/4a91c5c91887c8954f3581b54037fbb0/jetified-play-services-measurement-impl-17.0.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/544e28ecece06ae700884d1483b1d868/jetified-play-services-measurement-sdk-api-17.0.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/544e28ecece06ae700884d1483b1d868/jetified-play-services-measurement-sdk-api-17.0.0/AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:19.0.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/cf20fadfac513523abaae2e2ef8ca8d7/jetified-firebase-iid-19.0.1/AndroidManifest.xml:24:22-65
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:19.0.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/cf20fadfac513523abaae2e2ef8ca8d7/jetified-firebase-iid-19.0.1/AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:19.0.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/cf20fadfac513523abaae2e2ef8ca8d7/jetified-firebase-iid-19.0.1/AndroidManifest.xml:26:22-79
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-iid:19.0.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/cf20fadfac513523abaae2e2ef8ca8d7/jetified-firebase-iid-19.0.1/AndroidManifest.xml:29:9-35:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:19.0.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/cf20fadfac513523abaae2e2ef8ca8d7/jetified-firebase-iid-19.0.1/AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:19.0.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/cf20fadfac513523abaae2e2ef8ca8d7/jetified-firebase-iid-19.0.1/AndroidManifest.xml:30:13-84
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:19.0.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/cf20fadfac513523abaae2e2ef8ca8d7/jetified-firebase-iid-19.0.1/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:19.0.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/cf20fadfac513523abaae2e2ef8ca8d7/jetified-firebase-iid-19.0.1/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:19.0.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/cf20fadfac513523abaae2e2ef8ca8d7/jetified-firebase-iid-19.0.1/AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:19.0.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/cf20fadfac513523abaae2e2ef8ca8d7/jetified-firebase-iid-19.0.1/AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:19.0.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/cf20fadfac513523abaae2e2ef8ca8d7/jetified-firebase-iid-19.0.1/AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:19.0.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/cf20fadfac513523abaae2e2ef8ca8d7/jetified-firebase-iid-19.0.1/AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:19.0.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/cf20fadfac513523abaae2e2ef8ca8d7/jetified-firebase-iid-19.0.1/AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:19.0.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/cf20fadfac513523abaae2e2ef8ca8d7/jetified-firebase-iid-19.0.1/AndroidManifest.xml:41:13-43:29
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:18.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/6bb09837ce03a82efd69b0e9d11fa254/jetified-firebase-common-18.0.0/AndroidManifest.xml:12:9-16:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:18.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/6bb09837ce03a82efd69b0e9d11fa254/jetified-firebase-common-18.0.0/AndroidManifest.xml:14:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:18.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/6bb09837ce03a82efd69b0e9d11fa254/jetified-firebase-common-18.0.0/AndroidManifest.xml:15:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:18.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/6bb09837ce03a82efd69b0e9d11fa254/jetified-firebase-common-18.0.0/AndroidManifest.xml:16:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:18.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/6bb09837ce03a82efd69b0e9d11fa254/jetified-firebase-common-18.0.0/AndroidManifest.xml:13:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/f318b35285b2e5022155f96a0bb201df/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/f318b35285b2e5022155f96a0bb201df/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/f318b35285b2e5022155f96a0bb201df/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/f318b35285b2e5022155f96a0bb201df/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+activity#com.google.android.gms.ads.AdActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:18.1.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/b013f1ba1aa090f6423ff48b066fbd1a/jetified-play-services-ads-lite-18.1.1/AndroidManifest.xml:29:9-33:64
+	android:exported
+		ADDED from [com.google.android.gms:play-services-ads-lite:18.1.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/b013f1ba1aa090f6423ff48b066fbd1a/jetified-play-services-ads-lite-18.1.1/AndroidManifest.xml:32:13-37
+	android:configChanges
+		ADDED from [com.google.android.gms:play-services-ads-lite:18.1.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/b013f1ba1aa090f6423ff48b066fbd1a/jetified-play-services-ads-lite-18.1.1/AndroidManifest.xml:31:13-122
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:18.1.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/b013f1ba1aa090f6423ff48b066fbd1a/jetified-play-services-ads-lite-18.1.1/AndroidManifest.xml:33:13-61
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:18.1.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/b013f1ba1aa090f6423ff48b066fbd1a/jetified-play-services-ads-lite-18.1.1/AndroidManifest.xml:30:13-65
+provider#com.google.android.gms.ads.MobileAdsInitProvider
+ADDED from [com.google.android.gms:play-services-ads-lite:18.1.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/b013f1ba1aa090f6423ff48b066fbd1a/jetified-play-services-ads-lite-18.1.1/AndroidManifest.xml:35:9-39:39
+	android:authorities
+		ADDED from [com.google.android.gms:play-services-ads-lite:18.1.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/b013f1ba1aa090f6423ff48b066fbd1a/jetified-play-services-ads-lite-18.1.1/AndroidManifest.xml:37:13-73
+	android:exported
+		ADDED from [com.google.android.gms:play-services-ads-lite:18.1.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/b013f1ba1aa090f6423ff48b066fbd1a/jetified-play-services-ads-lite-18.1.1/AndroidManifest.xml:38:13-37
+	android:initOrder
+		ADDED from [com.google.android.gms:play-services-ads-lite:18.1.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/b013f1ba1aa090f6423ff48b066fbd1a/jetified-play-services-ads-lite-18.1.1/AndroidManifest.xml:39:13-36
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:18.1.1] /Users/yossi/.gradle/caches/transforms-2/files-2.1/b013f1ba1aa090f6423ff48b066fbd1a/jetified-play-services-ads-lite-18.1.1/AndroidManifest.xml:36:13-76
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/f9e3671f516d479539a8cf148b109cf4/jetified-play-services-measurement-17.0.0/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/f9e3671f516d479539a8cf148b109cf4/jetified-play-services-measurement-17.0.0/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/f9e3671f516d479539a8cf148b109cf4/jetified-play-services-measurement-17.0.0/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/f9e3671f516d479539a8cf148b109cf4/jetified-play-services-measurement-17.0.0/AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/f9e3671f516d479539a8cf148b109cf4/jetified-play-services-measurement-17.0.0/AndroidManifest.xml:34:9-42:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/4a91c5c91887c8954f3581b54037fbb0/jetified-play-services-measurement-impl-17.0.0/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/4a91c5c91887c8954f3581b54037fbb0/jetified-play-services-measurement-impl-17.0.0/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/544e28ecece06ae700884d1483b1d868/jetified-play-services-measurement-sdk-api-17.0.0/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/544e28ecece06ae700884d1483b1d868/jetified-play-services-measurement-sdk-api-17.0.0/AndroidManifest.xml:29:9-37:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/f9e3671f516d479539a8cf148b109cf4/jetified-play-services-measurement-17.0.0/AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/f9e3671f516d479539a8cf148b109cf4/jetified-play-services-measurement-17.0.0/AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/f9e3671f516d479539a8cf148b109cf4/jetified-play-services-measurement-17.0.0/AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/f9e3671f516d479539a8cf148b109cf4/jetified-play-services-measurement-17.0.0/AndroidManifest.xml:35:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/f9e3671f516d479539a8cf148b109cf4/jetified-play-services-measurement-17.0.0/AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/f9e3671f516d479539a8cf148b109cf4/jetified-play-services-measurement-17.0.0/AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/f9e3671f516d479539a8cf148b109cf4/jetified-play-services-measurement-17.0.0/AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/f9e3671f516d479539a8cf148b109cf4/jetified-play-services-measurement-17.0.0/AndroidManifest.xml:44:9-47:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/f9e3671f516d479539a8cf148b109cf4/jetified-play-services-measurement-17.0.0/AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/f9e3671f516d479539a8cf148b109cf4/jetified-play-services-measurement-17.0.0/AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/f9e3671f516d479539a8cf148b109cf4/jetified-play-services-measurement-17.0.0/AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/f9e3671f516d479539a8cf148b109cf4/jetified-play-services-measurement-17.0.0/AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/f9e3671f516d479539a8cf148b109cf4/jetified-play-services-measurement-17.0.0/AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/f9e3671f516d479539a8cf148b109cf4/jetified-play-services-measurement-17.0.0/AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/f9e3671f516d479539a8cf148b109cf4/jetified-play-services-measurement-17.0.0/AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/f9e3671f516d479539a8cf148b109cf4/jetified-play-services-measurement-17.0.0/AndroidManifest.xml:49:13-87
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/4b34329ebd092b1e2d84bd5a9be96a4e/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/4b34329ebd092b1e2d84bd5a9be96a4e/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/yossi/.gradle/caches/transforms-2/files-2.1/4b34329ebd092b1e2d84bd5a9be96a4e/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58

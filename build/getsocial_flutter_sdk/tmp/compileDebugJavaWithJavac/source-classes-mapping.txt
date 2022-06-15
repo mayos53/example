@@ -1,0 +1,7 @@
+im/getsocial/BuildConfig.java
+ im.getsocial.BuildConfig
+im/getsocial/GetSocialPlugin.java
+ im.getsocial.GetSocialPlugin
+ im.getsocial.GetSocialPlugin$1
+ im.getsocial.GetSocialPlugin$2
+ im.getsocial.GetSocialPlugin$3

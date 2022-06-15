@@ -1,0 +1,45 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/yossi/Documents/Projects/getsocial-flutter-sdk-master/example/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-v21/values-v21.xml",
+            "map": [
+                {
+                    "source": "/Users/yossi/.gradle/caches/transforms-2/files-2.1/2827992b7713def2933076182272c6a3/jetified-getsocial-core-7.3.7/res/values-v21/values-v21.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,161,262",
+                        "endColumns": "105,100,104",
+                        "endOffsets": "156,257,362"
+                    },
+                    "to": {
+                        "startLines": "6,7,8",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "368,474,575",
+                        "endColumns": "105,100,104",
+                        "endOffsets": "469,570,675"
+                    }
+                },
+                {
+                    "source": "/Users/yossi/.gradle/caches/transforms-2/files-2.1/b12e0bcc0b3fb88f21e0f116655df0a6/core-1.6.0/res/values-v21/values-v21.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,13",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,173,237,304,368,484,610,736,864,1036",
+                        "endLines": "2,3,4,5,6,7,8,9,12,17",
+                        "endColumns": "117,63,66,63,115,125,125,127,12,12",
+                        "endOffsets": "168,232,299,363,479,605,731,859,1031,1383"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,9,10,11,12,13,16",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,173,237,304,680,796,922,1048,1176,1348",
+                        "endLines": "2,3,4,5,9,10,11,12,15,20",
+                        "endColumns": "117,63,66,63,115,125,125,127,12,12",
+                        "endOffsets": "168,232,299,363,791,917,1043,1171,1343,1695"
+                    }
+                }
+            ]
+        }
+    ]
+}

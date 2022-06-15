@@ -1,0 +1,10 @@
+#Wed Jun 15 15:00:57 IDT 2022
+base.2=/Users/yossi/Documents/Projects/getsocial-flutter-sdk-master/example/build/app/intermediates/dex/debug/mergeDexDebug/classes3.dex
+path.2=classes3.dex
+base.1=/Users/yossi/Documents/Projects/getsocial-flutter-sdk-master/example/build/app/intermediates/dex/debug/mergeDexDebug/classes2.dex
+path.1=classes2.dex
+base.0=/Users/yossi/Documents/Projects/getsocial-flutter-sdk-master/example/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+path.0=classes.dex
