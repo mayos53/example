@@ -17,8 +17,6 @@ class FeedState extends State<Feed> {
   List<GetSocialActivity> activities = [];
   CurrentUser currentUser;
 
-  PagingResult<Label> labels;
-
   @override
   void initState() {
     getCurrentUser();
@@ -232,15 +230,6 @@ class FeedState extends State<Feed> {
         .catchError((error) => showAlert(context, 'Error', error.toString()));
   }
 
-  getLabels() async {
-    LabelsQuery query = LabelsQuery.all();
-    Communities.getLabels(PagingQuery(query)).then((result) {
-      this.labels = result;
-    }).catchError((error) {
-      print('Failed to get list of labels, error: ' + error);
-    });
-  }
-
   loadAnnouncements() async {
     var aQuery = query.asAnnouncementsQuery();
     if (aQuery == null) {
@@ -300,69 +289,91 @@ class FeedState extends State<Feed> {
           ]);
         });
   }
-}
-                      
-                      // Row(
-                      //   children: [
-                      //     Expanded(
-                      //       child: Column(
-                      //         children: [
-                      //           Align(
-                      //             child: Text('Id: ' + activity.id),
-                      //             alignment: Alignment.centerLeft,
-                      //           ),
-                      //           Align(
-                      //             child: Text('Text: ' +
-                      //                 (activity.text == null
-                      //                     ? 'null'
-                      //                     : activity.text)),
-                      //             alignment: Alignment.centerLeft,
-                      //           ),
-                      //           Align(
-                      //             child: Text(
-                      //                 'Author: ' + activity.author.displayName),
-                      //             alignment: Alignment.centerLeft,
-                      //           ),
-                      //           Align(
-                      //               child: Text('Status: ' + activity.status),
-                      //               alignment: Alignment.centerLeft),
-                      //           Align(
-                      //               child: Text('Announcement: ' +
-                      //                   activity.isAnnouncement.toString()),
-                      //               alignment: Alignment.centerLeft),
-                      //           activity.button != null
-                      //               ? FlatButton(
-                      //                   child: Text(activity.button.title),
-                      //                   onPressed: () =>
-                      //                       executeButtonAction(index),
-                      //                   color: Colors.green,
-                      //                 )
-                      //               : Text("")
-                      //         ],
-                      //       ),
-                      //     ),
-                      //     !isComment
-                      //         ? FlatButton(
-                      //             onPressed: () =>
-                      //                 showCommentsActionSheet(index),
-                      //             child: Text('Comments'),
-                      //             color: Colors.blue,
-                      //           )
-                      //         : Text(" "),
-                      //     Text(" "),
-                      //     FlatButton(
-                      //       onPressed: () => showActionSheet(index),
-                      //       child: Text('Actions'),
-                      //       color: Colors.blue,
-                      //     ),
-                      //   ],
-                      // ),
-                      // decoration: new BoxDecoration(
-                      //     color: Colors.white,
-                      //     border: new Border(bottom: new BorderSide())));
-                
-              
-     
-    
-  
 
+  // @override
+  // Widget build(BuildContext context) {
+  //   return Column(
+  //     children: [
+  //       Container(
+  //           child: new FlatButton(
+  //             onPressed: () {
+  //               buildContextList.removeLast();
+  //               Navigator.pop(context);
+  //             },
+  //             child: new Text('< Back'),
+  //             color: Colors.white,
+  //           ),
+  //           decoration: new BoxDecoration(
+  //               color: Colors.white,
+  //               border: new Border(bottom: new BorderSide()))),
+  //       Expanded(
+  //           child: ListView.builder(
+  //               padding: const EdgeInsets.all(0),
+  //               itemCount: activities.length,
+  //               itemBuilder: (BuildContext context, int index) {
+  //                 var activity = activities[index];
+  //                 return Container(
+  //                     child: Row(
+  //                       children: [
+  //                         Expanded(
+  //                           child: Column(
+  //                             children: [
+  //                               Align(
+  //                                 child: Text('Id: ' + activity.id),
+  //                                 alignment: Alignment.centerLeft,
+  //                               ),
+  //                               Align(
+  //                                 child: Text('Text: ' +
+  //                                     (activity.text == null
+  //                                         ? 'null'
+  //                                         : activity.text)),
+  //                                 alignment: Alignment.centerLeft,
+  //                               ),
+  //                               Align(
+  //                                 child: Text(
+  //                                     'Author: ' + activity.author.displayName),
+  //                                 alignment: Alignment.centerLeft,
+  //                               ),
+  //                               Align(
+  //                                   child: Text('Status: ' + activity.status),
+  //                                   alignment: Alignment.centerLeft),
+  //                               Align(
+  //                                   child: Text('Announcement: ' +
+  //                                       activity.isAnnouncement.toString()),
+  //                                   alignment: Alignment.centerLeft),
+  //                               activity.button != null
+  //                                   ? FlatButton(
+  //                                       child: Text(activity.button.title),
+  //                                       onPressed: () =>
+  //                                           executeButtonAction(index),
+  //                                       color: Colors.green,
+  //                                     )
+  //                                   : Text("")
+  //                             ],
+  //                           ),
+  //                         ),
+  //                         !isComment
+  //                             ? FlatButton(
+  //                                 onPressed: () =>
+  //                                     showCommentsActionSheet(index),
+  //                                 child: Text('Comments'),
+  //                                 color: Colors.blue,
+  //                               )
+  //                             : Text(" "),
+  //                         Text(" "),
+  //                         FlatButton(
+  //                           onPressed: () => showActionSheet(index),
+  //                           child: Text('Actions'),
+  //                           color: Colors.blue,
+  //                         ),
+  //                       ],
+  //                     ),
+  //                     decoration: new BoxDecoration(
+  //                         color: Colors.white,
+  //                         border: new Border(bottom: new BorderSide())));
+  //               })),
+  //     ],
+  //   );
+
+  //}
+}

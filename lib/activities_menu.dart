@@ -4,6 +4,7 @@ import 'package:getsocial_example/main.dart';
 import 'package:getsocial_example/postactivity.dart';
 import 'package:getsocial_flutter_sdk/getsocial_flutter_sdk.dart';
 import 'package:getsocial_example/common.dart';
+
 import 'feed.dart';
 
 class ActivitiesMenu extends BaseListView {
